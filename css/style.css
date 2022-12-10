@@ -1,0 +1,272 @@
+body {
+  background-image: url("img/back.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#slot1 {
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #bf8284;
+}
+
+#slot2 {
+  position: absolute;
+  top: 200px;
+  left: 725px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  background-color: #bf8284;
+}
+
+#slot3 {
+  position: absolute;
+  top: 200px;
+  left: 829px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  background-color: #bf8284;
+}
+
+#slot4 {
+  margin-top: 110px;
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #bf8284;
+}
+
+#slot5 {
+  margin-top: 110px;
+  position: absolute;
+  top: 200px;
+  left: 725px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  background-color: #bf8284;
+}
+
+#slot6 {
+  margin-top: 110px;
+  position: absolute;
+  top: 200px;
+  left: 829px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  background-color: #bf8284;
+}
+#slot7 {
+  margin-top: 220px;
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #bf8284;
+}
+
+#slot8 {
+  margin-top: 220px;
+  position: absolute;
+  top: 200px;
+  left: 725px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  background-color: #bf8284;
+}
+
+#slot9 {
+  margin-top: 220px;
+  position: absolute;
+  top: 200px;
+  left: 829px;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  background-color: #bf8284;
+}
+.name{
+  top: 160px;
+  color: orange;
+  position: absolute;
+  left: 610px;
+  font-size: 35px;
+}
+
+#machine {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  height:460px;
+  width: 480px;
+    border-radius: 10px;
+  background-color: #521510;
+  z-index: -1;
+}
+
+#slots{
+  font-size: 50px;
+  color: red;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+
+#lever1{
+  border: 3px solid lightgrey;
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  top: 275px;
+  background-color: dimgrey;
+  left: 1000px;
+  border-radius: 20px;
+}
+
+#lever2{
+  background-color: black;
+  width: 30px;
+  position: absolute;
+  height: 70px;
+  top: 320px;
+  left: 1013px;
+  border-radius: 50px;
+}
+
+#lever3{
+  height: 75px;
+  width: 10px;
+  position: absolute;
+  top: 283px;
+  left: 1030px;
+  background-color: grey;
+  transform: rotate(10deg);
+  border-radius: 10px;
+}
+
+#handle{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 283px;
+  left: 1027px;
+  background-color: red;
+  border-radius: 100px;
+}
+
+#item1{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 240px;
+  left: 620px;
+  text-align: center;
+}
+
+#item2{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 240px;
+  left: 725px;
+  text-align: center;
+}
+
+#item3{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 240px;
+  left: 829px;
+  text-align: center;
+}
+
+#item4{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 350px;
+  left: 620px;
+  text-align: center;
+}
+
+#item5{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 350px;
+  left: 725px;
+  text-align: center;
+}
+
+#item6{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 350px;
+  left: 829px;
+  text-align: center;
+}
+
+#item7{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top:  460px;
+  left: 620px;
+  text-align: center;
+}
+
+#item8{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 460px;
+  left: 725px;
+  text-align: center;
+}
+
+#item9{
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 460px;
+  left: 829px;
+  text-align: center;
+}
+#notice{
+   width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 555px;
+  left: 688px;
+  font-size: 35px;
+  font-variant-position: center;
+  border-radius: 10px;
+   background-color: #521510; 
+   color: yellow;
+   text-indent: 3px;
+}
